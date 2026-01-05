@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LogiTech - Logistics Management System</title>
+    <meta name="description" content="Professional logistics management platform for tracking shipments, managing vehicles, and optimizing delivery routes" />
+    <meta name="author" content="LogiTech" />
+
+    <meta property="og:title" content="LogiTech - Logistics Management System" />
+    <meta property="og:description" content="Professional logistics management platform for tracking shipments, managing vehicles, and optimizing delivery routes" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/public/logistics.png" />
+        <!-- Add Razorpay script -->
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    
+    <!-- Test Razorpay Key (Replace with your actual key in production) -->
+  <!-- index.html -->
+<script>
+  window.RAZORPAY_KEY_ID = "%VITE_RAZORPAY_KEY_ID%";
+</script>
+
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

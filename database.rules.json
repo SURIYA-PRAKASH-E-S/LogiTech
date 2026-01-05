@@ -1,0 +1,71 @@
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null",
+
+    "users": {
+      ".read": "auth != null && root.child('users').child(auth.uid).child('role').val() === 'admin'",
+      ".write": "auth != null && root.child('users').child(auth.uid).child('role').val() === 'admin'",
+
+      "$uid": {
+        ".read": "auth != null && (auth.uid === $uid || root.child('users').child(auth.uid).child('role').val() === 'admin')",
+        ".write": "auth != null && (auth.uid === $uid || root.child('users').child(auth.uid).child('role').val() === 'admin')"
+      },
+
+      "customers": {
+        "$customerId": {
+          ".read": "auth != null && (auth.uid === $customerId || root.child('users').child(auth.uid).child('role').val() === 'admin')",
+          ".write": "auth != null && auth.uid === $customerId"
+        }
+      },
+
+      "drivers": {
+        "$driverId": {
+          ".read": "auth != null && (auth.uid === $driverId || root.child('users').child(auth.uid).child('role').val() === 'admin')",
+          ".write": "auth != null && auth.uid === $driverId"
+        }
+      }
+    },
+
+    "vehicles": {
+      ".read": "auth != null",
+      ".write": "auth != null && root.child('users').child(auth.uid).child('role').val() === 'admin'"
+    },
+
+    "bookings": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+
+      "$bookingId": {
+        ".read": "auth != null && (data.child('userId').val() === auth.uid || data.child('driverId').val() === auth.uid || root.child('users').child(auth.uid).child('role').val() === 'admin')",
+        ".write": "auth != null && ((!data.exists() && newData.child('userId').val() === auth.uid) || data.child('userId').val() === auth.uid || root.child('users').child(auth.uid).child('role').val() === 'admin')"
+      }
+    },
+
+    "payments": {
+      "$userId": {
+        ".read": "auth != null && (auth.uid === $userId || root.child('users').child(auth.uid).child('role').val() === 'admin')",
+        ".write": "auth != null && auth.uid === $userId"
+      }
+    },
+
+    "tracking": {
+      "$trackingId": {
+        ".read": "auth != null && (data.child('updatedBy').val() === auth.uid || root.child('users').child(auth.uid).child('role').val() === 'admin')",
+        ".write": "auth != null && (data.child('updatedBy').val() === auth.uid || root.child('users').child(auth.uid).child('role').val() === 'admin')"
+      }
+    },
+
+    "vehicleLocations": {
+      "$vehicleId": {
+        ".read": "auth != null && (root.child('users').child(auth.uid).child('role').val() === 'admin' || root.child('vehicles').child($vehicleId).child('driverId').val() === auth.uid || root.child('users').child('drivers').child(root.child('vehicles').child($vehicleId).child('driverId').val()).child('sharedWith').child(auth.uid).exists())",
+        ".write": "auth != null && (root.child('vehicles').child($vehicleId).child('driverId').val() === auth.uid || root.child('users').child(auth.uid).child('role').val() === 'admin')"
+      }
+    },
+
+    "vehicleTrackingIds": {
+      ".read": "auth != null",
+      ".write": "auth != null && root.child('users').child(auth.uid).child('role').val() === 'admin'"
+    }
+  }
+}
