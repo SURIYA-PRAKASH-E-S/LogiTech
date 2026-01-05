@@ -412,7 +412,7 @@ We welcome contributions! Please follow these guidelines:
 
 1. **Fork the repository**
    ```bash
-   git clone https://github.com/your-username/logitech-logistics.git
+   git clone https://github.com/Mohaneswaran-dev/Web-Logistics.git
    ```
 
 2. **Create feature branch**
@@ -447,7 +447,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ### Copyright Notice
 
 ```
-Copyright (c) 2025 LogiTech Logistics Management System
+Copyright (c) 2026 LogiTech Logistics Management System
 ```
 
 ## 🙏 Acknowledgments
@@ -462,8 +462,7 @@ Copyright (c) 2025 LogiTech Logistics Management System
 
 ---
 
-**Built with ❤️ by the LogiTech Logistics Team**
-
+**Built with ❤️ by the My Team**
 
 
 
