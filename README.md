@@ -4,7 +4,7 @@ A modern logistics and delivery management platform built with React, TypeScript
 
 ## 🚀 Live Demo
 
-**[Live Demo Link](https://logitech-logistics-demo.web.app)** - Experience the platform in action
+**[Live Demo Link](https://logic-flow-e72c1.web.app/)** - Experience the platform in action
 
 ## 📋 Table of Contents
 
