@@ -124,7 +124,7 @@ export default function Signup() {
                   <SelectContent>
                     <SelectItem value="customer">Customer</SelectItem>
                     <SelectItem value="driver">Driver</SelectItem>
-                    <SelectItem value="admin">Admin</SelectItem>
+                    {/* <SelectItem value="admin">Admin</SelectItem> */}
                   </SelectContent>
                 </Select>
               </div>
