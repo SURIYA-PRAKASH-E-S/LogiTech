@@ -3,8 +3,7 @@
 A modern logistics and delivery management platform built with React, TypeScript, Firebase, and Node.js. Streamline delivery operations with real-time tracking, driver management, and customer analytics.
 
 ## 🚀 Live Demo
-
-![Live Demo](https://logic-flow-e72c1.web.app/) - Experience the platform in action
+[View Live Demo](https://logic-flow-e72c1.web.app/) - Experience the platform in action
 
 ## 📋 Table of Contents
 
