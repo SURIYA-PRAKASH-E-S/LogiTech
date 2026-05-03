@@ -20,7 +20,7 @@ A modern logistics and delivery management platform built with React, TypeScript
 
 ## 🎯 Project Overview
 
-LogiTech Logistics is a comprehensive delivery management system designed to streamline logistics operations for businesses of all sizes. The platform provides real-time tracking, intelligent route optimization, driver management, and customer analytics.
+LogiTech Logistics is a comprehensive delivery management system designed to streamline logistics operations for businesses of all sizes. The platform provides real-time tracking, intelligent route optimization, driver management and customer analytics.
 
 ### Key Benefits
 
@@ -171,8 +171,8 @@ logitech-route-flow-main/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/suriyaes04/LogicBackup.git
-   cd logitech-route-flow-main
+   git clone https://github.com/SURIYA-PRAKASH-E-S/LogiTech.git
+   cd LogiTech
    ```
 
 2. **Install dependencies**
@@ -384,61 +384,6 @@ firebase functions:config set \
 - `sendNotification` - Send push notification
 - `updateCustomer` - Update customer details
 
-## 🤝 Contributing
-
-We welcome contributions! Please follow these guidelines:
-
-### Development Guidelines
-
-1. **Code Style**
-   - Use TypeScript for all new code
-   - Follow ESLint configuration
-   - Use meaningful variable names
-   - Add comments for complex logic
-
-2. **Component Structure**
-   - Keep components small and focused
-   - Use proper TypeScript types
-   - Add responsive design
-   - Include error handling
-
-3. **Testing**
-   - Test on multiple devices
-   - Verify responsive behavior
-   - Test error scenarios
-   - Check console for errors
-
-### Pull Request Process
-
-1. **Fork the repository**
-   ```bash
-   git clone https://github.com/Mohaneswaran-dev/Web-Logistics.git
-   ```
-
-2. **Create feature branch**
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-
-3. **Make changes**
-   - Write clean, documented code
-   - Follow existing patterns
-   - Test thoroughly
-
-4. **Submit pull request**
-   - Describe changes clearly
-   - Include screenshots if applicable
-   - Mention any breaking changes
-
-### Issue Reporting
-
-When reporting issues, please include:
-- **Description**: Clear description of the issue
-- **Steps to Reproduce**: Detailed reproduction steps
-- **Expected Behavior**: What should happen
-- **Actual Behavior**: What actually happens
-- **Environment**: Browser, OS, device information
-- **Screenshots**: If applicable
 
 ## 📄 License
 
