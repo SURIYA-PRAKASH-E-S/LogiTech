@@ -1,10 +1,10 @@
-# LogiTech Logistics Management System
+# LogiTech - Logistics Management System
 
 A modern logistics and delivery management platform built with React, TypeScript, Firebase, and Node.js. Streamline delivery operations with real-time tracking, driver management, and customer analytics.
 
 ## 🚀 Live Demo
 
-**[Live Demo Link](https://logic-flow-e72c1.web.app/)** - Experience the platform in action
+![Live Demo](https://logic-flow-e72c1.web.app/) - Experience the platform in action
 
 ## 📋 Table of Contents
 
@@ -20,7 +20,7 @@ A modern logistics and delivery management platform built with React, TypeScript
 
 ## 🎯 Project Overview
 
-LogiTech Logistics is a comprehensive delivery management system designed to streamline logistics operations for businesses of all sizes. The platform provides real-time tracking, intelligent route optimization, driver management and customer analytics.
+LogiTech is a comprehensive delivery management system designed to streamline logistics operations for businesses of all sizes. The platform provides real-time tracking, intelligent route optimization, driver management and customer analytics.
 
 ### Key Benefits
 
@@ -394,16 +394,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ```
 Copyright (c) 2026 LogiTech Logistics Management System
 ```
-
-## 🙏 Acknowledgments
-
-- **React Team** - For the amazing React framework
-- **Firebase** - For the excellent backend services
-- **Tailwind CSS** - For the utility-first CSS framework
-- **Shadcn/ui** - For the beautiful UI components
-- **Cloudinary** - For image management services
-- **Razorpay** - For payment processing
-- **Leafletjs** - For mapping and location services
 
 ---
 
