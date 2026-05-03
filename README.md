@@ -14,7 +14,6 @@ A modern logistics and delivery management platform built with React, TypeScript
 - [Local Development](#-local-development)
 - [Firebase Deployment](#-firebase-deployment)
 - [API Documentation](#-api-documentation)
-- [Contributing](#-contributing)
 
 ## 🎯 Project Overview
 
